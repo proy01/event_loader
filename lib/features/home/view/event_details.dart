@@ -179,18 +179,30 @@ class _EventDetailsState extends State<EventDetails> {
                     Center(
                         child: Padding(
                           padding: const EdgeInsets.only(bottom: 20.0),
-                          child: SizedBox(
+                          child: Container(
                             width: 227,
                             height: 58,
                             child: ElevatedButton(
+                              style: ElevatedButton.styleFrom(shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15))),
                               onPressed: () {},
                               child: Row(
-                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                children: const [
+                                mainAxisAlignment: MainAxisAlignment.end,
+                                children: [
                                   Text('Book Now'),
-                                  Icon(
-                                    Icons.arrow_circle_right,
-                                    color: Color(0xFF3D56F0),
+                                  SizedBox(width: 45,),
+                                  Container(
+                                    height: 25,
+                                    width: 25,
+                                    decoration: const BoxDecoration(
+                                        borderRadius: BorderRadius.all(Radius.circular(100)),
+                                      color: Color(0xFF3D56F0),
+
+                                    ),
+                                    child: Icon(
+                                      Icons.arrow_right_alt,
+                                      color: Colors.white,
+                                      size: 15,
+                                    ),
                                   )
                                 ],
                               ),
