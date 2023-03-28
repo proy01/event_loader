@@ -1,16 +1,16 @@
-# tif_assignment
+# Event Loader
 
 A new Flutter project
 
-## Getting Started
+This project showcases the following flutter concepts:
 
-This project is a starting point for a Flutter application.
+1. Calling Api
+2. Building Custom AppBar using PreferredSizeWIdget
+3. Building widgets dynamically by api calls
+4. Implementing a search function that also uses api
+5. Adding custom fonts
+6. Using network images
+7. Navigation betweeen named routes
+8. Passing information between screens
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The project also uses CLEAN architecture and the MVC model in the features folder to enable scalability at a future stage. No State management has been used as it was not required. 
