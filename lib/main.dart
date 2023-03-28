@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'TIF',
+      title: 'Event Loader',
       debugShowCheckedModeBanner: false,
       theme: lightTheme,
       routes: {
